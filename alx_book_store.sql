@@ -6,6 +6,10 @@ mydb = mysql.connector.connect(
     password="Binaryblade@11242005%",
     database="alx_book_store"
 )
+
+CREATE TABLE IF NOT EXIST alx_book_store (
+
+
 CREATE TABLE Books (
     book_id (Primary Key)
     title VARCHAR(130)
@@ -35,5 +39,6 @@ CREATE TABLE order_details (
     order_id (Foreign Key referencing Orders table)
     book_id (Foreign Key referencing Books table)
     quantity DOUBLE
+)
 )
 
