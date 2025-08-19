@@ -1,11 +1,6 @@
-import mysql.connector
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Binaryblade@11242005%",
-    database="alx_book_store"
-)
 CREATE TABLE IF NOT EXISTS Authors (
     author_id INT AUTO_INCREMENT,
     author_name VARCHAR(215),
