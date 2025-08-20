@@ -8,7 +8,7 @@ def create_database():
         mydb = mysql.connector.connect (
             host="localhost",
             user="root",
-            password="Binaryblade@11242005%"
+            password="Bownbagdoshka"
             database="alx_book_store"
         )
 
